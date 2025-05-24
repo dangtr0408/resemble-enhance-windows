@@ -9,4 +9,5 @@ version.py
 __pycache__
 venv
 resemble_enhance/model_repo/
-wheels/*
+wheels/deepspeed-0.11.2+cuda118-cp311-cp311-win_amd64.whl
+wheels/triton-2.1.0-cp311-cp311-win_amd64.whl
