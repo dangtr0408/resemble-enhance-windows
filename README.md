@@ -1,8 +1,18 @@
-# This fork allows you to use Resemble Enhance on Windows. 
-## Note that you need to have python 3.10.x or python 3.11 and CUDA 11.8 to make it work.
-## Run install.bat and then launch.bat
+# This fork allows you to use Resemble Enhance on **Windows**.
 
-## I have done a little optimization, now this project should run smoothly on 8GB VRAM, if you have problems with long audio reduce chunk seconds
+Download wheels, place them in wheels folder:
+- [Triton](https://huggingface.co/madbuda/triton-windows-builds/resolve/main/triton-2.1.0-cp311-cp311-win_amd64.whl)
+- [Deepseed](https://drive.google.com/file/d/1cthPALgqDnjOlM40PKBJPrjulmwpgEHy/view?usp=drive_link)
+Install dependencies
+```
+pip install uv
+uv sync
+```
+Run gradio UI
+```
+uv run app.py
+```
+
 <hr>
 
 # Resemble Enhance
