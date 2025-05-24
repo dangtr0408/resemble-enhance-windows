@@ -1,14 +1,16 @@
 # This fork allows you to use Resemble Enhance on **Windows**.
 
 Download wheels, place them in wheels folder:
+
 - [Triton](https://huggingface.co/madbuda/triton-windows-builds/resolve/main/triton-2.1.0-cp311-cp311-win_amd64.whl)
 - [Deepseed](https://drive.google.com/file/d/1cthPALgqDnjOlM40PKBJPrjulmwpgEHy/view?usp=drive_link)
-Install dependencies
+
+Install dependencies:
 ```
 pip install uv
 uv sync
 ```
-Run gradio UI
+Run gradio UI:
 ```
 uv run app.py
 ```
